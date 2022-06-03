@@ -2,10 +2,11 @@
 
 :root{
 
-    --rosa-claro: #f75c5c;
-    --rosa-escuro: #b13b3b;
+    --cinza-escuro: #383638;
+    --rosa-medio: #f75c5c;
+    --rosa-escuro: #782C2C;
 
-    --cinza-escuro:rgb(31, 31, 31);
+    --rosa-claro:#daabab;
     
     
 }
