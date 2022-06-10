@@ -1,0 +1,139 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav img {
+    margin: 100px 0 0 25px;
+    width: 20vw;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight:500;
+    gap: 30px;
+}
+
+li a {
+    color: var(--rosa-medio);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--rosa-escuro);
+}
+
+nav button {
+    background-color: var(--rosa-medio);
+    border-radius: 20px;
+    width: 125px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    margin-right: 30px;
+}
+
+nav button:hover {
+
+    background-color: var(--rosa-escuro);
+    transform: scale(1.07);
+    transition: all 0.2s;
+}
+
+
+/* PRIMEIRO VEÍCULOS BLACK */ 
+
+.card-2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 10rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/carrob2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card-2:hover {
+    filter: unset;
+}
+
+.card-2:hover > .card-wrapper::before {
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+
+.card-2:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+/* SEGUNDO VEÍCULO BLACK */
+
+.card-4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 2rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/carrob1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card-4:hover {
+    filter: unset;
+}
+
+.card-4:hover > .card-wrapper::before {
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+
+.card-4:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+.card-text-4 {
+    margin: 2rem 0 0 0;
+    width: 40%;
+    letter-spacing: 1px;
+}
